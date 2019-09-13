@@ -26,8 +26,6 @@
     <BundleAssemblies>true</BundleAssemblies>
     <AotAssemblies>true</AotAssemblies>
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>portable</DebugType>
     <Optimize>true</Optimize>

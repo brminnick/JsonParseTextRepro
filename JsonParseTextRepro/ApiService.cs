@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 
 namespace JsonParseTextRepro
 {
-    public class ApiService
+    public static class ApiService
     {
         readonly static HttpClient _client = new HttpClient
         {
