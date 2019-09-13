@@ -2,6 +2,8 @@
 
 A reproduction sample demonstrating a regression in Visual Studio for Mac v8.3 Preview 4
 
+![](https://user-images.githubusercontent.com/13558917/64835332-7f5d1f80-d59a-11e9-98c3-298ebc1d89aa.png)
+
 ## Reproduction Steps
 
 1. Install the VS for Mac Preview Build available on 13 September 0300 UTC (environment information, below)
