@@ -32,7 +32,7 @@ namespace JsonParseTextRepro
                 }
                 catch (System.Exception e)
                 {
-                    _statusLabel.Text = $"Exception: {e.Message}";
+                    _statusLabel.Text = $"Exception: {e}";
                 }
             }
         }
