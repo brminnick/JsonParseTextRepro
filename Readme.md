@@ -2,6 +2,10 @@
 
 A reproduction sample demonstrating a regression in Visual Studio for Mac v8.3 Preview 4
 
+| VS for Mac v8.2.6 (build 28) | VS for Mac v8.3 (build 1630)|
+| ---------------------------- | --------------------------- |
+| ![](https://user-images.githubusercontent.com/13558917/64836049-46727a00-d59d-11e9-8fd5-3082de33d272.png) | ![](https://user-images.githubusercontent.com/13558917/64835332-7f5d1f80-d59a-11e9-98c3-298ebc1d89aa.png) | 
+
 ## Reproduction Steps
 
 1. Install the VS for Mac Preview Build available on 13 September 0300 UTC ([Environment](#environment) information, below)
@@ -17,8 +21,6 @@ A reproduction sample demonstrating a regression in Visual Studio for Mac v8.3 P
 3. Set the Build Configration to DEBUG
 4. Build/Deploy the JsonParseTextRepro.Android project to an Android Emulator or Physical Device
 5. Verify the display shows `Success`
-
-<img src="https://user-images.githubusercontent.com/13558917/64835332-7f5d1f80-d59a-11e9-98c3-298ebc1d89aa.png" width="500">
 
 ## Environment
 
