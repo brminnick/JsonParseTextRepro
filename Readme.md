@@ -1,6 +1,8 @@
 # Json Parse Text Repro
 
-A reproduction sample demonstrating a regression in Visual Studio for Mac v8.3 Preview 4
+A reproduction sample demonstrating a regression in Visual Studio for Mac v8.3 Preview 4.
+
+Issue reported to the Xamarin.Android team: https://github.com/xamarin/xamarin-android/issues/3626
 
 | VS for Mac v8.2.6 (build 28) | VS for Mac v8.3 (build 1630)|
 | ---------------------------- | --------------------------- |
