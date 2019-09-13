@@ -26,7 +26,7 @@ namespace JsonParseTextRepro
 
                 try
                 {
-                    var response = await new ApiService().GetPun();
+                    var response = await ApiService.GetPun();
 
                     _statusLabel.Text = "Success";
                 }

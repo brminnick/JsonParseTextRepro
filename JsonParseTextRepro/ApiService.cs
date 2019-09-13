@@ -7,7 +7,7 @@ namespace JsonParseTextRepro
 {
     public class ApiService
     {
-        readonly HttpClient _client = new HttpClient
+        readonly static HttpClient _client = new HttpClient
         {
             BaseAddress = new Uri("https://pundaycdn.azureedge.net"),
             DefaultRequestHeaders =
@@ -18,7 +18,7 @@ namespace JsonParseTextRepro
             }
         };
 
-        public async Task<PunModel> GetPun()
+        public static async Task<PunModel> GetPun()
         {
             using (var response = await _client.GetAsync("/tables/AzurePunModel/200").ConfigureAwait(false))
             {
