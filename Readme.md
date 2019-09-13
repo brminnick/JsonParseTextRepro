@@ -7,7 +7,7 @@ A reproduction sample demonstrating a regression in Visual Studio for Mac v8.3 P
 1. Install the VS for Mac Preview Build available on 13 September 0300 UTC (environment information, below)
 2. In Visual Studio for Mac, Open JsonParseTextRepro.sln
 3. Set the Build Configration to DEBUG
-4. Build/Deploy the JsonParseTextRepro.Android project to an Android Device
+4. Build/Deploy the JsonParseTextRepro.Android project to an Android Emulator or Physical Device
 5. Verify display shows the following Exception: `Newtonsoft.Json.JsonReaderException`
 
 ## Work Around
@@ -15,7 +15,7 @@ A reproduction sample demonstrating a regression in Visual Studio for Mac v8.3 P
 1. Install the VS for Mac Stable Build available on 13 September 0300 UTC, VS for Mac v8.2.6 (build 28)
 2. In Visual Studio for Mac, Open JsonParseTextRepro.sln
 3. Set the Build Configration to DEBUG
-4. Build/Deploy the JsonParseTextRepro.Android project to an Android Device
+4. Build/Deploy the JsonParseTextRepro.Android project to an Android Emulator or Physical Device
 5. Verify the display shows `Success`
 
 ## Environment
