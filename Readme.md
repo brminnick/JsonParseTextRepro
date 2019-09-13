@@ -4,7 +4,7 @@ A reproduction sample demonstrating a regression in Visual Studio for Mac v8.3 P
 
 | VS for Mac v8.2.6 (build 28) | VS for Mac v8.3 (build 1630)|
 | ---------------------------- | --------------------------- |
-| ![](https://user-images.githubusercontent.com/13558917/64836049-46727a00-d59d-11e9-8fd5-3082de33d272.png) | ![](https://user-images.githubusercontent.com/13558917/64835332-7f5d1f80-d59a-11e9-98c3-298ebc1d89aa.png) | 
+| ![](https://user-images.githubusercontent.com/13558917/64836161-b84ac380-d59d-11e9-90ee-458ab5e2a4fe.png) | ![](https://user-images.githubusercontent.com/13558917/64835332-7f5d1f80-d59a-11e9-98c3-298ebc1d89aa.png) | 
 
 ## Reproduction Steps
 
