@@ -37,7 +37,9 @@
     <AndroidDexTool>d8</AndroidDexTool>
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
     <AndroidUseAapt2>true</AndroidUseAapt2>
-    <AndroidLinkTool>r8</AndroidLinkTool>
+    <BundleAssemblies>false</BundleAssemblies>
+    <AotAssemblies>false</AotAssemblies>
+    <AndroidSupportedAbis>x86_64;arm64-v8a</AndroidSupportedAbis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -62,7 +64,9 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.2.0.778463" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.0" />
-    <PackageReference Include="Refit" Version="4.7.51" />
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.2</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
